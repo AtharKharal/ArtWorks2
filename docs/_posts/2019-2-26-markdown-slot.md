@@ -41,7 +41,7 @@ Use the `Content` component to use the slot in the layout component:
 Here we are using `slot-key` instead of `slot`, because in Vue, `slot` is a reserved prop name.
 :::
 
-## Default Slot Content
+## Default Slot Contents
 
 By default, the slot-free part of a markdown file becomes the default content of a markdown slot, which you can access directly using the `Content` component:
 
@@ -110,5 +110,6 @@ Then the rendered HTML of this page will be:
 ```
 
 Note that:
+
 1. Unlike the slot mechanism provided by [Vue](https://vuejs.org/v2/guide/components-slots.html) itself, each content distribution is wrapped in a `div` whose class is `content` with the name of the slot.
 2. Please ensure the uniqueness of the slot defined.
