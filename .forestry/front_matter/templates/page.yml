@@ -6,11 +6,13 @@ fields:
   type: text
   config:
     required: false
-  label: title
+  label: Athar Website Page 1
+  description: Page 1 edited by me
 - name: description
   type: text
   config:
     required: false
   label: description
+  description: I shall describe latter MAK
 pages:
 - docs/about.md
